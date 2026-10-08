@@ -1,0 +1,170 @@
+{
+  "bpm": 128,
+  "beats": 176,
+  "sections": [
+    {
+      "name": "code",
+      "start": 0.0,
+      "end": 4.0
+    },
+    {
+      "name": "syntax",
+      "start": 4.0,
+      "end": 8.0
+    },
+    {
+      "name": "sculpture",
+      "start": 8.0,
+      "end": 14.0
+    },
+    {
+      "name": "statement",
+      "start": 14.0,
+      "end": 18.0
+    },
+    {
+      "name": "web",
+      "start": 18.0,
+      "end": 22.0
+    },
+    {
+      "name": "server",
+      "start": 22.0,
+      "end": 26.0
+    },
+    {
+      "name": "vision",
+      "start": 26.0,
+      "end": 30.0
+    },
+    {
+      "name": "harmony",
+      "start": 30.0,
+      "end": 34.0
+    },
+    {
+      "name": "system",
+      "start": 34.0,
+      "end": 46.0
+    },
+    {
+      "name": "publish",
+      "start": 46.0,
+      "end": 58.0
+    },
+    {
+      "name": "contribution",
+      "start": 58,
+      "end": 74
+    },
+    {
+      "name": "campus",
+      "start": 74,
+      "end": 94
+    },
+    {
+      "name": "voyage",
+      "start": 94,
+      "end": 110
+    },
+    {
+      "name": "community",
+      "start": 110,
+      "end": 126
+    },
+    {
+      "name": "build",
+      "start": 126,
+      "end": 142
+    },
+    {
+      "name": "creed",
+      "start": 142,
+      "end": 158
+    },
+    {
+      "name": "outro",
+      "start": 158,
+      "end": 176
+    }
+  ],
+  "communityWords": [
+    {
+      "beat": 110,
+      "text": "学习。"
+    },
+    {
+      "beat": 112,
+      "text": "创造。"
+    },
+    {
+      "beat": 114,
+      "text": "分享。"
+    },
+    {
+      "beat": 116,
+      "text": "贡献。"
+    }
+  ],
+  "fps": 60,
+  "creativeCues": [
+    {
+      "beat": 58,
+      "label": "contribution-entry"
+    },
+    {
+      "beat": 62,
+      "label": "fork"
+    },
+    {
+      "beat": 66,
+      "label": "merge"
+    },
+    {
+      "beat": 70,
+      "label": "together"
+    },
+    {
+      "beat": 94,
+      "label": "paper"
+    },
+    {
+      "beat": 98,
+      "label": "fold"
+    },
+    {
+      "beat": 102,
+      "label": "sail"
+    },
+    {
+      "beat": 106,
+      "label": "launch"
+    }
+  ],
+  "systemWords": [
+    {
+      "beat": 34,
+      "text": "成员。"
+    },
+    {
+      "beat": 36,
+      "text": "活动。"
+    },
+    {
+      "beat": 38,
+      "text": "项目。"
+    },
+    {
+      "beat": 40,
+      "text": "抽奖。"
+    },
+    {
+      "beat": 42,
+      "text": "表单。"
+    },
+    {
+      "beat": 44,
+      "text": "统计。"
+    }
+  ]
+}

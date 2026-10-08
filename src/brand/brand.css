@@ -1,0 +1,20 @@
+.brand-study {
+  font-family: BrandGrotesk, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #101113;
+  overflow: hidden;
+}
+.brand-study * {
+  box-sizing: border-box;
+}
+.brand-corner {
+  position: absolute;
+  font-family: BrandGrotesk, sans-serif;
+  font-size: 18px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  z-index: 3;
+}
+.brand-study img {
+  image-rendering: auto;
+}

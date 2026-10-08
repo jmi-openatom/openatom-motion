@@ -1,0 +1,127 @@
+{
+  "source": "public/music/bgm.mp3",
+  "duration": 75.0,
+  "tempoCandidates": [
+    [
+      142.65513706630583,
+      112.1
+    ],
+    [
+      142.65513706630583,
+      112.0
+    ],
+    [
+      142.65513706630583,
+      111.9
+    ],
+    [
+      139.23291401598357,
+      111.8
+    ],
+    [
+      139.23291401598357,
+      111.7
+    ],
+    [
+      136.73993757740135,
+      112.4
+    ],
+    [
+      136.73993757740135,
+      112.3
+    ],
+    [
+      136.73993757740135,
+      112.2
+    ]
+  ],
+  "chosenBPM": 112,
+  "method": "Positive log-spectral flux autocorrelation, 85–151 BPM; existing source synthesis script independently declares 112 BPM. Beat origin 0s from source.",
+  "rmsPerSecond": [
+    0.0584,
+    0.08188,
+    0.08182,
+    0.08157,
+    0.05457,
+    0.0768,
+    0.09356,
+    0.09954,
+    0.09018,
+    0.13202,
+    0.13587,
+    0.13885,
+    0.12274,
+    0.12667,
+    0.16453,
+    0.18357,
+    0.1833,
+    0.15405,
+    0.17468,
+    0.17317,
+    0.17508,
+    0.14694,
+    0.16546,
+    0.17089,
+    0.16616,
+    0.15033,
+    0.15879,
+    0.16858,
+    0.16868,
+    0.16311,
+    0.15956,
+    0.18255,
+    0.18049,
+    0.18231,
+    0.15382,
+    0.17441,
+    0.17155,
+    0.17716,
+    0.1563,
+    0.13584,
+    0.14011,
+    0.13694,
+    0.12643,
+    0.12571,
+    0.14263,
+    0.14425,
+    0.14487,
+    0.11918,
+    0.15545,
+    0.1872,
+    0.19411,
+    0.16899,
+    0.18934,
+    0.19001,
+    0.19199,
+    0.17031,
+    0.17039,
+    0.18151,
+    0.17889,
+    0.16895,
+    0.1685,
+    0.18432,
+    0.17967,
+    0.18402,
+    0.16265,
+    0.19156,
+    0.19127,
+    0.19736,
+    0.15903,
+    0.18122,
+    0.14077,
+    0.14151,
+    0.12443,
+    0.06486,
+    0.02459
+  ],
+  "phrases": {
+    "intro": "0–12 beats; keyboard and harmonic bed",
+    "firstMotionAccent": "12 beats: accompaniment entry, reinforced by original SFX",
+    "logoResolve": "28 beats: percussion section active",
+    "break": "74 beats: lower source RMS near 39s",
+    "community": "92 beats: source rises near 49s",
+    "finalBuild": "108–120 beats: rising SFX over source groove",
+    "finalDrop": "120 beats: designed impact; not claimed as an automatically detected source drop",
+    "silence": "128–128.5 beats: explicit final mix silence"
+  }
+}

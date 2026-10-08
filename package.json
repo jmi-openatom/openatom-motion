@@ -1,0 +1,40 @@
+{
+  "name": "jmi-openatom-brand-film",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "JMI-OPENATOM · 82.5-second 1080p60 kinetic brand film and 15-second style study",
+  "scripts": {
+    "start": "remotion studio src/index.ts --port=3000",
+    "render": "remotion render src/index.ts JMI-BRAND-FILM out/jmi-openatom-brand-film.mp4 --codec=h264 --crf=18",
+    "render:preview": "remotion render src/index.ts JMI-BRAND-FILM out/brand-film-preview.mp4 --scale=0.5 --crf=23",
+    "typecheck": "tsc --noEmit",
+    "stills": "node scripts/render-brand-film-stills.mjs",
+    "verify": "node scripts/verify-brand-sync.mjs",
+    "render:brand": "remotion render src/index.ts JMI-BRAND-STUDY out/jmi-brand-study.mp4 --codec=h264 --crf=18",
+    "render:film": "remotion render src/index.ts JMI-BRAND-FILM out/jmi-openatom-brand-film.mp4 --codec=h264 --crf=18",
+    "covers": "node scripts/render-brand-covers.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.1",
+    "@remotion/bundler": "4.0.532",
+    "@remotion/cli": "4.0.532",
+    "@remotion/fonts": "4.0.532",
+    "@remotion/motion-blur": "4.0.532",
+    "@remotion/renderer": "4.0.532",
+    "@remotion/studio": "4.0.532",
+    "@remotion/three": "4.0.532",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.532",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.186.0",
+    "prettier": "3.8.3",
+    "typescript": "^5.9.0"
+  }
+}
