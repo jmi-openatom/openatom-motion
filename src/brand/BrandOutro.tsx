@@ -99,7 +99,10 @@ export const BrandOutro = ({ b }: { b: number }) => {
           position: "absolute",
           top: 357,
           width: "100%",
-          textAlign: "center",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "baseline",
+          gap: 28,
           color: PAPER,
           fontSize: 139,
           letterSpacing: -8,
@@ -108,7 +111,9 @@ export const BrandOutro = ({ b }: { b: number }) => {
           transform: `translateY(${(1 - titleIn) * 38}px)`,
         }}
       >
-        JMI—OPENATOM
+        <span>JMI</span>
+        <span style={{ letterSpacing: 0 }}>-</span>
+        <span>OPENATOM</span>
       </div>
 
       <div
